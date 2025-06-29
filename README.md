@@ -13,6 +13,10 @@ cd exceltodbf
 python -m venv venv
 source venv/Scripts/Activate
 ```
+**_Установка зависимостей__**
+```
+pip install -r requirements.txt
+```
 **_Вызвать программу указав параметром имя файла эксель, который должен лежать в папке с проектом_**
 ```
 python app.py [имя_файла_эксель]
