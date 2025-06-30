@@ -41,8 +41,6 @@ wheels/
 *.egg
 
 # Файлы данных
-.xlsx
-.dbf
 *.xlsx
 *.dbf
 *.csv
@@ -67,3 +65,5 @@ wheels/
 .coverage
 htmlcov/
 .pytest_cache/
+
+dbf_reader.py

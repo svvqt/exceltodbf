@@ -2,7 +2,7 @@
 
 
 
-### Как пользоваться
+### Локальный запуск
 **_Склонировать проект_**
 ```
 git clone https://github.com/svvqt/exceltodbf.git
@@ -13,7 +13,7 @@ cd exceltodbf
 python -m venv venv
 source venv/Scripts/Activate
 ```
-**_Установка зависимостей__**
+**_Установка зависимостей_**
 ```
 pip install -r requirements.txt
 ```

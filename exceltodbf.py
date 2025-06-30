@@ -9,6 +9,9 @@ def excel_to_dbf(excel_path, dbf_path=None):
             dbf_path = excel_path[:-5] + '.dbf'
         else:
             dbf_path = excel_path + '.dbf'
+    else:
+        if dbf_path.endswith('.dbf') is False:
+            dbf_path += '.dbf'
 
     df = pd.read_excel(excel_path)
     df = df.dropna(axis=1, how='all')  # Удаляем полностью пустые столбцы
