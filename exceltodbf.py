@@ -1,8 +1,7 @@
-import sys
 import pandas as pd
 from dbf import Table, READ_WRITE
 
-path = sys.argv[1]
+
 def excel_to_dbf(excel_path, dbf_path=None):
     if dbf_path is None:
         if excel_path.endswith('.xlsx'):
