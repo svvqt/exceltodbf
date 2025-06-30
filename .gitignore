@@ -41,6 +41,8 @@ wheels/
 *.egg
 
 # Файлы данных
+.xlsx
+.dbf
 *.xlsx
 *.dbf
 *.csv
