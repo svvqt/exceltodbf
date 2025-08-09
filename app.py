@@ -1,4 +1,4 @@
-from exceltodbf import excel_to_dbf
+from service.exceltodbf import excel_to_dbf
 import sys
 
 if __name__ == "__main__":
